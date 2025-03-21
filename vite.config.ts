@@ -41,7 +41,7 @@ loader:"jsx",
         viteStaticCopy({
             targets: [
                 {
-                    src: "./src/assets/",
+                    src: "./src/assets/Sankul1.jpeg",
                     dest: "assets",
                 },
                 {

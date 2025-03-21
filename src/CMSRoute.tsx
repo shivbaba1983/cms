@@ -33,18 +33,18 @@ const CMSRoute = () => {
                     </ul>                    
                 </nav> */}
                 <div className='tab-list'>
-                    <div className='link-button'><a href='/cms/home'>Home</a></div>
+                    {/* <div className='link-button'><a href='/cms/home'>Home</a></div>
                     <div className='link-button'><a href='/cms/attraction'>Attraction</a></div>
-                    <div className='link-button'> <a href='/cms/facility'>Facility</a></div>
+                    <div className='link-button'> <a href='/cms/facility'>Facility</a></div> */}
                 </div>
 
             </div>
 
             <Routes>
                 <Route path="*" element={<PageNotFound />} />
-                <Route path="/cms/home" element={<Home />} />
+                {/* <Route path="/cms/home" element={<Home />} />
                 <Route path="/cms/attraction" element={<Attraction />} />
-                <Route path="/cms/facility" element={<Facility />} />
+                <Route path="/cms/facility" element={<Facility />} /> */}
             </Routes>
         </div>
     )

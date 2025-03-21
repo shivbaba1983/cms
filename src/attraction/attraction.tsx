@@ -2,7 +2,7 @@
 const Attraction =()=>{
 
     return(<div>
- <p>Attraction page</p>
+ {/* <p>Attraction page</p> */}
 
  <p> Shree. Jalindranath Maharaj Temple 0.5 km</p>
  <p> Shree. Bhagwati Mata Temple 2 km</p>

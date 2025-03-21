@@ -1,11 +1,19 @@
+import './PageNotFound.scss';
+import ExpandCollapseControl from './../components/ExpandCollapseControl';
+import Attraction from './../attraction/attraction';
+import CustomSlider from './CustomSlider';
+const PageNotFound = () => {
 
-const PageNotFound=()=>{
-
-
-    return(
+    return (
 
         <div>
-            <p> Page not found, something went wrong</p>
+            <CustomSlider/>
+            <div className='attraction-section'>
+            <ExpandCollapseControl title="Attractions">
+                <Attraction />
+            </ExpandCollapseControl>
+            </div>
+
         </div>
     )
 }
