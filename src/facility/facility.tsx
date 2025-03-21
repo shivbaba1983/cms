@@ -4,6 +4,7 @@ const Facility = () => {
         <div className="facility-list">
             <ol type="1">
                 <li> Retail properties</li>
+                <li> lift</li>
                 <li> Individual office spaces</li>
                 <li> Grade A offices</li>
                 <li> Parking lot</li>

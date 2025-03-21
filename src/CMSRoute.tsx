@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from "./home/home"
 import Attraction from "./attraction/attraction";
 import Facility from "./facility/facility"
-import PageNotFound from "./components/PageNotFound";
+import MainLayout from "./main-layout/MainLayout";
 import './CMSRoute.scss';
 
 
@@ -41,7 +41,7 @@ const CMSRoute = () => {
             </div>
 
             <Routes>
-                <Route path="*" element={<PageNotFound />} />
+                <Route path="*" element={<MainLayout />} />
                 {/* <Route path="/cms/home" element={<Home />} />
                 <Route path="/cms/attraction" element={<Attraction />} />
                 <Route path="/cms/facility" element={<Facility />} /> */}
