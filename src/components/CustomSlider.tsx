@@ -6,9 +6,6 @@ const images = [
     Sankul1,
     Sankul2,
     Sankul3
-//   "https://via.placeholder.com/800x400?text=Slide+1",
-//   "https://via.placeholder.com/800x400?text=Slide+2",
-//   "https://via.placeholder.com/800x400?text=Slide+3",
 ];
 
 const CustomSlider = () => {
@@ -29,7 +26,7 @@ const CustomSlider = () => {
   return (
     <div style={{ textAlign: "center", position: "relative", width: "500px", margin: "auto" }}>
       <button onClick={prevSlide} style={{ position: "absolute", left: 0, top: "50%" }}>❮</button>
-      <img src={images[currentIndex]} alt="slide" style={{ width: "90%" }} />
+      <img src={images[currentIndex]} alt="slide" style={{ width: "80%" }} />
       <button onClick={nextSlide} style={{ position: "absolute", right: 0, top: "50%" }}>❯</button>
     </div>
   );
