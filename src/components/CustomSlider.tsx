@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './CustomSlider.scss';
 import Sankul1 from './../assets/Sankul1.jpeg';
 import Sankul2 from './../assets/Sankul2.jpeg';
 import Sankul3 from './../assets/Sankul3.jpeg';
@@ -36,10 +37,10 @@ const CustomSlider = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", position: "relative", width: "500px", margin: "auto" }}>
-      <button onClick={prevSlide} style={{ position: "absolute", left: 0, top: "50%" }}>❮</button>
-      <img src={images[currentIndex]} alt="slide" style={{ width: "80%" }} />
-      <button onClick={nextSlide} style={{ position: "absolute", right: 0, top: "50%" }}>❯</button>
+    <div className="custom-slider-section" style={{ textAlign: "center"}}>
+      <button onClick={prevSlide} className="left-slider-button">❮</button>
+      <img src={images[currentIndex]} alt="slide" className="slider-images" />
+      <button onClick={nextSlide} className="right-slider-button">❯</button>
     </div>
   );
 };

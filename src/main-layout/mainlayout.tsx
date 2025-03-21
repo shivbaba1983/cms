@@ -5,6 +5,8 @@ import Facility from '../facility/facility';
 import CustomSlider from '../components/CustomSlider';
 import CustomMarquee from '../components/CustomMarquee';
 import TwoColumnLayout from './TwoColumnLayout';
+import ContactInfo from './../contact-us/ContactInfo';
+
 const MainLayout = () => {
 
     return (
@@ -35,6 +37,11 @@ const MainLayout = () => {
                     <div className='facility-section'>
                         <ExpandCollapseControl title="Facility">
                             <Facility />
+                        </ExpandCollapseControl>
+                    </div>
+                    <div className='contact-info-section'>
+                    <ExpandCollapseControl title="Contact Us">
+                    <ContactInfo />
                         </ExpandCollapseControl>
                     </div>
                 </div>
