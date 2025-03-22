@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ComplexHeader from './components/ComplexHeader';
+import ComplexHeader from './header/ComplexHeader';
 import { Routes, Route } from 'react-router-dom';
 import Home from "./home/home"
 import Attraction from "./attraction/attraction";
@@ -19,7 +19,7 @@ const CMSRoute = () => {
     return (
 
         <div>
-            <ComplexHeader />
+            {/* <ComplexHeader /> */}
             <div className='complex-main-route-section'>
                 {/* <nav className='tab-list'>
                     <ul className="cms-meganav-section">
