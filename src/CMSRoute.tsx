@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from "./home/home"
 import Attraction from "./attraction/attraction";
 import Facility from "./facility/facility"
-import MainLayout from "./main-layout/MainLayout";
+import MainResponsiveLayout from "./main-responsive-layout/MainResponsiveLayout";
 import './CMSRoute.scss';
 
 
@@ -20,7 +20,7 @@ const CMSRoute = () => {
 
         <div>
             {/* <ComplexHeader /> */}
-            <div className='complex-main-route-section'>
+            <div className='complex-main-route-section1'>
                 {/* <nav className='tab-list'>
                     <ul className="cms-meganav-section">
                        {
@@ -41,7 +41,7 @@ const CMSRoute = () => {
             </div>
 
             <Routes>
-                <Route path="*" element={<MainLayout />} />
+                <Route path="*" element={<MainResponsiveLayout />} />
                 {/* <Route path="/cms/home" element={<Home />} />
                 <Route path="/cms/attraction" element={<Attraction />} />
                 <Route path="/cms/facility" element={<Facility />} /> */}
