@@ -21,12 +21,12 @@ const ContactUs = () => {
     emailjs
       .send(
         "service_jetl37b",
-        "template_hwysgwx", 
+        "template_hwysgwx",
         formData,
-        "LuIbDb4IQTq6QKYGp" 
+        "LuIbDb4IQTq6QKYGp"
       )
       .then(
-        
+
         (response) => {
           setSuccessMessage("Message sent successfully!");
           setFormData({ name: "", email: "", message: "" }); // Clear form

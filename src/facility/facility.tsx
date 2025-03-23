@@ -5,7 +5,7 @@ const Facility = () => {
     return (<div>
         <div className="facility-list-items">
             <ul className='list-item-style'>
-            <li> Retail properties</li>
+                <li> Retail properties</li>
                 <li> Lift</li>
                 <li> Individual office spaces</li>
                 <li> Grade A offices</li>

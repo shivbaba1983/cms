@@ -10,15 +10,15 @@ import Sankul7 from './../assets/Sankul7.jpeg';
 import Sankul8 from './../assets/Sankul8.jpeg';
 import Sankul9 from './../assets/Sankul9.jpeg';
 const images = [
-    Sankul1,
-    Sankul2,
-    Sankul3,
-    Sankul4,
-    Sankul5,
-    Sankul6,
-    Sankul7,
-    Sankul8,
-    Sankul9
+  Sankul1,
+  Sankul2,
+  Sankul3,
+  Sankul4,
+  Sankul5,
+  Sankul6,
+  Sankul7,
+  Sankul8,
+  Sankul9
 ];
 
 const CustomSlider = () => {
@@ -37,7 +37,7 @@ const CustomSlider = () => {
   };
 
   return (
-    <div className="custom-slider-section" style={{ textAlign: "center"}}>
+    <div className="custom-slider-section" style={{ textAlign: "center" }}>
       <button onClick={prevSlide} className="left-slider-button">❮</button>
       <img src={images[currentIndex]} alt="slide" className="slider-images" />
       <button onClick={nextSlide} className="right-slider-button">❯</button>

@@ -12,10 +12,10 @@ import LeafletMap from '../leafletmap/LeafletMap';
 const MainResponsiveLayout = () => {
   return (
     <div className="application-level">
-              <ComplexHeader/>
-              <CustomMarquee />
+      <ComplexHeader />
+      <CustomMarquee />
       <div className="main-container">
-      <div className="right-section">
+        <div className="right-section">
           <CustomSlider />
         </div>
         <div className="left-section">
