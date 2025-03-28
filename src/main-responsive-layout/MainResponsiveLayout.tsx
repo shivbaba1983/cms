@@ -8,6 +8,7 @@ import CustomSlider from '../components/CustomSlider';
 import CustomMarquee from '../components/CustomMarquee';
 import ContactInfo from '../contact-us/ContactInfo';
 import LeafletMap from '../leafletmap/LeafletMap';
+import HeroSlider from '../hero-slider/HeroSlider';
 
 const MainResponsiveLayout = () => {
   return (
@@ -15,10 +16,13 @@ const MainResponsiveLayout = () => {
       <ComplexHeader />
       <CustomMarquee />
       <div className="main-container">
-        <div className="right-section">
+        {/* <div className="right-section">
           <CustomSlider />
-        </div>
+        </div> */}
         <div className="left-section">
+          <HeroSlider />
+        </div>
+        <div className="right-section">
           <div className='facility-section'>
             <ExpandCollapseControl title="Facility">
               <Facility />

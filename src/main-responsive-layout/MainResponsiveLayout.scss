@@ -7,15 +7,17 @@
 .left-section {
   margin-top: 20px;
   flex: 1;
-  min-width: 300px;
-  /* Prevents elements from shrinking too much */
+ // min-width: 300px;
+ width: 50%;
+
 }
 
 .right-section {
   margin-top: 20px;
   flex: 1;
-  min-width: 300px;
-  /* Prevents elements from shrinking too much */
+  //min-width: 300px;
+  width: 50%;
+
 }
 
 .application-level {
@@ -54,5 +56,20 @@
 @media only screen and (max-width: 600px) {
   .main-container {
     flex-direction: column;
+  }
+  .left-section {
+    margin-top: 20px;
+    flex: 1;
+   // min-width: 300px;
+   width: 100%;
+  
+  }
+  
+  .right-section {
+    margin-top: 20px;
+    flex: 1;
+    //min-width: 300px;
+    width: 100%;
+  
   }
 }
