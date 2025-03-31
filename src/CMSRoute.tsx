@@ -20,7 +20,7 @@ const CMSRoute = () => {
 
         <div>
             {/* <ComplexHeader /> */}
-            <div className='complex-main-route-section1'>
+            <div className='complex-main-route-section'>
                 {/* <nav className='tab-list'>
                     <ul className="cms-meganav-section">
                        {
